@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA224D5322FC93FC00502E95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA224D5222FC93FC00502E95 /* AppDelegate.swift */; };
+		CA224D5522FC93FC00502E95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA224D5422FC93FC00502E95 /* ViewController.swift */; };
+		CA224D5822FC93FC00502E95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA224D5622FC93FC00502E95 /* Main.storyboard */; };
+		CA224D5A22FC93FE00502E95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA224D5922FC93FE00502E95 /* Assets.xcassets */; };
+		CA224D5D22FC93FE00502E95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA224D5B22FC93FE00502E95 /* LaunchScreen.storyboard */; };
+		CA224D6822FC93FE00502E95 /* NoamPlayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA224D6722FC93FE00502E95 /* NoamPlayTests.swift */; };
+		CA224D7322FC93FE00502E95 /* NoamPlayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA224D7222FC93FE00502E95 /* NoamPlayUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA224D6422FC93FE00502E95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA224D4722FC93FC00502E95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA224D4E22FC93FC00502E95;
+			remoteInfo = NoamPlay;
+		};
+		CA224D6F22FC93FE00502E95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA224D4722FC93FC00502E95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA224D4E22FC93FC00502E95;
+			remoteInfo = NoamPlay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA224D4F22FC93FC00502E95 /* NoamPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoamPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA224D5222FC93FC00502E95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CA224D5422FC93FC00502E95 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CA224D5722FC93FC00502E95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA224D5922FC93FE00502E95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA224D5C22FC93FE00502E95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA224D5E22FC93FE00502E95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA224D6322FC93FE00502E95 /* NoamPlayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoamPlayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA224D6722FC93FE00502E95 /* NoamPlayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoamPlayTests.swift; sourceTree = "<group>"; };
+		CA224D6922FC93FE00502E95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA224D6E22FC93FE00502E95 /* NoamPlayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoamPlayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA224D7222FC93FE00502E95 /* NoamPlayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoamPlayUITests.swift; sourceTree = "<group>"; };
+		CA224D7422FC93FE00502E95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA224D4C22FC93FC00502E95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA224D6022FC93FE00502E95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA224D6B22FC93FE00502E95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA224D4622FC93FC00502E95 = {
+			isa = PBXGroup;
+			children = (
+				CA224D5122FC93FC00502E95 /* NoamPlay */,
+				CA224D6622FC93FE00502E95 /* NoamPlayTests */,
+				CA224D7122FC93FE00502E95 /* NoamPlayUITests */,
+				CA224D5022FC93FC00502E95 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA224D5022FC93FC00502E95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA224D4F22FC93FC00502E95 /* NoamPlay.app */,
+				CA224D6322FC93FE00502E95 /* NoamPlayTests.xctest */,
+				CA224D6E22FC93FE00502E95 /* NoamPlayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA224D5122FC93FC00502E95 /* NoamPlay */ = {
+			isa = PBXGroup;
+			children = (
+				CA224D5222FC93FC00502E95 /* AppDelegate.swift */,
+				CA224D5422FC93FC00502E95 /* ViewController.swift */,
+				CA224D5622FC93FC00502E95 /* Main.storyboard */,
+				CA224D5922FC93FE00502E95 /* Assets.xcassets */,
+				CA224D5B22FC93FE00502E95 /* LaunchScreen.storyboard */,
+				CA224D5E22FC93FE00502E95 /* Info.plist */,
+			);
+			path = NoamPlay;
+			sourceTree = "<group>";
+		};
+		CA224D6622FC93FE00502E95 /* NoamPlayTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA224D6722FC93FE00502E95 /* NoamPlayTests.swift */,
+				CA224D6922FC93FE00502E95 /* Info.plist */,
+			);
+			path = NoamPlayTests;
+			sourceTree = "<group>";
+		};
+		CA224D7122FC93FE00502E95 /* NoamPlayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA224D7222FC93FE00502E95 /* NoamPlayUITests.swift */,
+				CA224D7422FC93FE00502E95 /* Info.plist */,
+			);
+			path = NoamPlayUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA224D4E22FC93FC00502E95 /* NoamPlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA224D7722FC93FE00502E95 /* Build configuration list for PBXNativeTarget "NoamPlay" */;
+			buildPhases = (
+				CA224D4B22FC93FC00502E95 /* Sources */,
+				CA224D4C22FC93FC00502E95 /* Frameworks */,
+				CA224D4D22FC93FC00502E95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NoamPlay;
+			productName = NoamPlay;
+			productReference = CA224D4F22FC93FC00502E95 /* NoamPlay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA224D6222FC93FE00502E95 /* NoamPlayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA224D7A22FC93FE00502E95 /* Build configuration list for PBXNativeTarget "NoamPlayTests" */;
+			buildPhases = (
+				CA224D5F22FC93FE00502E95 /* Sources */,
+				CA224D6022FC93FE00502E95 /* Frameworks */,
+				CA224D6122FC93FE00502E95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA224D6522FC93FE00502E95 /* PBXTargetDependency */,
+			);
+			name = NoamPlayTests;
+			productName = NoamPlayTests;
+			productReference = CA224D6322FC93FE00502E95 /* NoamPlayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA224D6D22FC93FE00502E95 /* NoamPlayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA224D7D22FC93FE00502E95 /* Build configuration list for PBXNativeTarget "NoamPlayUITests" */;
+			buildPhases = (
+				CA224D6A22FC93FE00502E95 /* Sources */,
+				CA224D6B22FC93FE00502E95 /* Frameworks */,
+				CA224D6C22FC93FE00502E95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA224D7022FC93FE00502E95 /* PBXTargetDependency */,
+			);
+			name = NoamPlayUITests;
+			productName = NoamPlayUITests;
+			productReference = CA224D6E22FC93FE00502E95 /* NoamPlayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA224D4722FC93FC00502E95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Noam Mizrachi";
+				TargetAttributes = {
+					CA224D4E22FC93FC00502E95 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					CA224D6222FC93FE00502E95 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = CA224D4E22FC93FC00502E95;
+					};
+					CA224D6D22FC93FE00502E95 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = CA224D4E22FC93FC00502E95;
+					};
+				};
+			};
+			buildConfigurationList = CA224D4A22FC93FC00502E95 /* Build configuration list for PBXProject "NoamPlay" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA224D4622FC93FC00502E95;
+			productRefGroup = CA224D5022FC93FC00502E95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA224D4E22FC93FC00502E95 /* NoamPlay */,
+				CA224D6222FC93FE00502E95 /* NoamPlayTests */,
+				CA224D6D22FC93FE00502E95 /* NoamPlayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA224D4D22FC93FC00502E95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA224D5D22FC93FE00502E95 /* LaunchScreen.storyboard in Resources */,
+				CA224D5A22FC93FE00502E95 /* Assets.xcassets in Resources */,
+				CA224D5822FC93FC00502E95 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA224D6122FC93FE00502E95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA224D6C22FC93FE00502E95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA224D4B22FC93FC00502E95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA224D5522FC93FC00502E95 /* ViewController.swift in Sources */,
+				CA224D5322FC93FC00502E95 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA224D5F22FC93FE00502E95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA224D6822FC93FE00502E95 /* NoamPlayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA224D6A22FC93FE00502E95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA224D7322FC93FE00502E95 /* NoamPlayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA224D6522FC93FE00502E95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA224D4E22FC93FC00502E95 /* NoamPlay */;
+			targetProxy = CA224D6422FC93FE00502E95 /* PBXContainerItemProxy */;
+		};
+		CA224D7022FC93FE00502E95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA224D4E22FC93FC00502E95 /* NoamPlay */;
+			targetProxy = CA224D6F22FC93FE00502E95 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA224D5622FC93FC00502E95 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA224D5722FC93FC00502E95 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA224D5B22FC93FE00502E95 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA224D5C22FC93FE00502E95 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA224D7522FC93FE00502E95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA224D7622FC93FE00502E95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA224D7822FC93FE00502E95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KWK73BKB7Y;
+				INFOPLIST_FILE = NoamPlay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.noammizrachi.NoamPlay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA224D7922FC93FE00502E95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KWK73BKB7Y;
+				INFOPLIST_FILE = NoamPlay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.noammizrachi.NoamPlay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CA224D7B22FC93FE00502E95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KWK73BKB7Y;
+				INFOPLIST_FILE = NoamPlayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.noammizrachi.NoamPlayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NoamPlay.app/NoamPlay";
+			};
+			name = Debug;
+		};
+		CA224D7C22FC93FE00502E95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KWK73BKB7Y;
+				INFOPLIST_FILE = NoamPlayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.noammizrachi.NoamPlayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NoamPlay.app/NoamPlay";
+			};
+			name = Release;
+		};
+		CA224D7E22FC93FE00502E95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KWK73BKB7Y;
+				INFOPLIST_FILE = NoamPlayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.noammizrachi.NoamPlayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NoamPlay;
+			};
+			name = Debug;
+		};
+		CA224D7F22FC93FE00502E95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KWK73BKB7Y;
+				INFOPLIST_FILE = NoamPlayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.noammizrachi.NoamPlayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NoamPlay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA224D4A22FC93FC00502E95 /* Build configuration list for PBXProject "NoamPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA224D7522FC93FE00502E95 /* Debug */,
+				CA224D7622FC93FE00502E95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA224D7722FC93FE00502E95 /* Build configuration list for PBXNativeTarget "NoamPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA224D7822FC93FE00502E95 /* Debug */,
+				CA224D7922FC93FE00502E95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA224D7A22FC93FE00502E95 /* Build configuration list for PBXNativeTarget "NoamPlayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA224D7B22FC93FE00502E95 /* Debug */,
+				CA224D7C22FC93FE00502E95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA224D7D22FC93FE00502E95 /* Build configuration list for PBXNativeTarget "NoamPlayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA224D7E22FC93FE00502E95 /* Debug */,
+				CA224D7F22FC93FE00502E95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA224D4722FC93FC00502E95 /* Project object */;
+}
