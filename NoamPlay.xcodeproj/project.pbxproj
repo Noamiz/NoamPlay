@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		CA224D5322FC93FC00502E95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA224D5222FC93FC00502E95 /* AppDelegate.swift */; };
-		CA224D5522FC93FC00502E95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA224D5422FC93FC00502E95 /* ViewController.swift */; };
 		CA224D5822FC93FC00502E95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA224D5622FC93FC00502E95 /* Main.storyboard */; };
 		CA224D5A22FC93FE00502E95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA224D5922FC93FE00502E95 /* Assets.xcassets */; };
 		CA224D5D22FC93FE00502E95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA224D5B22FC93FE00502E95 /* LaunchScreen.storyboard */; };
 		CA224D6822FC93FE00502E95 /* NoamPlayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA224D6722FC93FE00502E95 /* NoamPlayTests.swift */; };
 		CA224D7322FC93FE00502E95 /* NoamPlayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA224D7222FC93FE00502E95 /* NoamPlayUITests.swift */; };
+		CA3F0F9022FC9AF500567735 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3F0F8F22FC9AF500567735 /* FirstViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		CA224D4F22FC93FC00502E95 /* NoamPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoamPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA224D5222FC93FC00502E95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CA224D5422FC93FC00502E95 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CA224D5722FC93FC00502E95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CA224D5922FC93FE00502E95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA224D5C22FC93FE00502E95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		CA224D6E22FC93FE00502E95 /* NoamPlayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoamPlayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA224D7222FC93FE00502E95 /* NoamPlayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoamPlayUITests.swift; sourceTree = "<group>"; };
 		CA224D7422FC93FE00502E95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA3F0F8F22FC9AF500567735 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				CA224D5222FC93FC00502E95 /* AppDelegate.swift */,
-				CA224D5422FC93FC00502E95 /* ViewController.swift */,
+				CA3F0F8F22FC9AF500567735 /* FirstViewController.swift */,
 				CA224D5622FC93FC00502E95 /* Main.storyboard */,
 				CA224D5922FC93FE00502E95 /* Assets.xcassets */,
 				CA224D5B22FC93FE00502E95 /* LaunchScreen.storyboard */,
@@ -256,8 +256,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA224D5522FC93FC00502E95 /* ViewController.swift in Sources */,
 				CA224D5322FC93FC00502E95 /* AppDelegate.swift in Sources */,
+				CA3F0F9022FC9AF500567735 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
