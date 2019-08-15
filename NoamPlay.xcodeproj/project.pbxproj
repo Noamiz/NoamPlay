@@ -14,6 +14,12 @@
 		CA224D6822FC93FE00502E95 /* NoamPlayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA224D6722FC93FE00502E95 /* NoamPlayTests.swift */; };
 		CA224D7322FC93FE00502E95 /* NoamPlayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA224D7222FC93FE00502E95 /* NoamPlayUITests.swift */; };
 		CA3F0F9022FC9AF500567735 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3F0F8F22FC9AF500567735 /* FirstViewController.swift */; };
+		CAD676D722FE48730058C550 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD676D622FE48730058C550 /* Colors.swift */; };
+		CAD676D922FE4FA50058C550 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD676D822FE4FA40058C550 /* SecondViewController.swift */; };
+		CAD676DB2305727D0058C550 /* StarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD676DA2305727D0058C550 /* StarCell.swift */; };
+		CAD676DD2305760F0058C550 /* Stars.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD676DC2305760F0058C550 /* Stars.swift */; };
+		CAD676DF23057C2A0058C550 /* Star.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD676DE23057C2A0058C550 /* Star.swift */; };
+		CAD676E1230583300058C550 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD676E0230583300058C550 /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,12 @@
 		CA224D7222FC93FE00502E95 /* NoamPlayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoamPlayUITests.swift; sourceTree = "<group>"; };
 		CA224D7422FC93FE00502E95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA3F0F8F22FC9AF500567735 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		CAD676D622FE48730058C550 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		CAD676D822FE4FA40058C550 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		CAD676DA2305727D0058C550 /* StarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarCell.swift; sourceTree = "<group>"; };
+		CAD676DC2305760F0058C550 /* Stars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stars.swift; sourceTree = "<group>"; };
+		CAD676DE23057C2A0058C550 /* Star.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Star.swift; sourceTree = "<group>"; };
+		CAD676E0230583300058C550 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +111,12 @@
 			children = (
 				CA224D5222FC93FC00502E95 /* AppDelegate.swift */,
 				CA3F0F8F22FC9AF500567735 /* FirstViewController.swift */,
+				CAD676D822FE4FA40058C550 /* SecondViewController.swift */,
+				CAD676D622FE48730058C550 /* Colors.swift */,
+				CAD676DA2305727D0058C550 /* StarCell.swift */,
+				CAD676DE23057C2A0058C550 /* Star.swift */,
+				CAD676DC2305760F0058C550 /* Stars.swift */,
+				CAD676E0230583300058C550 /* ThirdViewController.swift */,
 				CA224D5622FC93FC00502E95 /* Main.storyboard */,
 				CA224D5922FC93FE00502E95 /* Assets.xcassets */,
 				CA224D5B22FC93FE00502E95 /* LaunchScreen.storyboard */,
@@ -256,8 +274,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAD676D922FE4FA50058C550 /* SecondViewController.swift in Sources */,
+				CAD676DD2305760F0058C550 /* Stars.swift in Sources */,
 				CA224D5322FC93FC00502E95 /* AppDelegate.swift in Sources */,
+				CAD676DF23057C2A0058C550 /* Star.swift in Sources */,
+				CAD676D722FE48730058C550 /* Colors.swift in Sources */,
 				CA3F0F9022FC9AF500567735 /* FirstViewController.swift in Sources */,
+				CAD676E1230583300058C550 /* ThirdViewController.swift in Sources */,
+				CAD676DB2305727D0058C550 /* StarCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
